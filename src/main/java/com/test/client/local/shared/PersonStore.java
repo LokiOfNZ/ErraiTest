@@ -1,4 +1,4 @@
-package com.justinvesting.client.local.shared;
+package com.test.client.local.shared;
 
 import java.util.ArrayList;
 import java.util.List;

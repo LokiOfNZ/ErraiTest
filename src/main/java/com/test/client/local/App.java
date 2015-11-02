@@ -1,4 +1,4 @@
-package com.justinvesting.client.local;
+package com.test.client.local;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
@@ -12,12 +12,12 @@ import org.jboss.errai.ui.shared.api.annotations.Templated;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.SimplePanel;
-import com.justinvesting.client.local.components.SideNav;
-import com.justinvesting.client.local.components.TopNav;
+import com.test.client.local.components.SideNav;
+import com.test.client.local.components.TopNav;
 
 @EntryPoint
 @ApplicationScoped
-@Templated("/com/justinvesting/client/templates/pages/Base.html")
+@Templated("/com/test/client/templates/pages/Base.html")
 public class App extends Composite {
 
 	@Inject
